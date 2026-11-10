@@ -1,0 +1,14 @@
+:root {
+    --color-black: #141025;
+    --color-white: #FFFFFF;
+    --color-grey: #CFD0D9;
+    --color-dark: #1A0335;
+    --color-red: #ED0A32;
+
+    --font-family: 'Nova';
+    --font-weight-regular: 400;
+    --font-weight-semibold: 500;
+    --font-weight-bold: 600;
+    --font-weight-extrabold: 800;
+
+}
