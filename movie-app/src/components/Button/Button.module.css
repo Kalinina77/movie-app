@@ -1,0 +1,14 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 24px;
+    border: none;
+    border-radius: 12px;
+    background: var(--color-red);
+    color: var(--color-white);
+    font-family: 'NovaExtraBold';
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}

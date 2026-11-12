@@ -1,0 +1,64 @@
+.wrapper {
+    position: relative;
+    padding-top: 40px;
+}
+
+.swiper {
+    width: 879px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 20px 0 40px;
+    height: 100%;
+}
+
+.slide {
+    width: 277px;
+    flex-shrink: 0;
+}
+
+.card {
+    transform-origin: left center;
+    filter: blur(4px);
+    opacity: 0.5;
+    transition: transform 0.3s, filter 0.3s, opacity 0.3s;
+    color: var(--color-white);
+}
+
+:global(.swiper-slide-active) {
+    z-index: 2;
+}
+
+:global(.swiper-slide-active) .card {
+    transform: scale(1.35);
+    filter: none;
+    opacity: 1;
+}
+
+.poster {
+    display: block;
+    width: 277px;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.title {
+    margin: 16px 0 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 2px 8px;
+    border: 1px solid var(--color-red);
+    border-radius: 4px;
+    color: var(--color-red);
+    font-size: 14px;
+}
+
+.swiper :global(.swiper-button-prev),
+.swiper :global(.swiper-button-next) {
+    color: var(--color-white);
+}
