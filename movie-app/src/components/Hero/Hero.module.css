@@ -1,0 +1,14 @@
+.title{
+    font-family: 'NovaExtraBold';
+    font-size: 48px;
+    color: var(--color-white);
+}
+
+.subtitle{
+    font-family: 'Nova';
+    font-size: 16px;
+    color: var(--color-grey);
+}
+.container{
+    display: flex;
+}

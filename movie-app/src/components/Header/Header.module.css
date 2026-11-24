@@ -1,0 +1,78 @@
+.header{
+    background: var(--color-black);
+    border-bottom: 1px solid var(--color-grey);
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.header__title{
+    color: var(--color-white);
+    font-family: 'NovaExtraBold';
+    font-size: 32px;
+}
+
+.header__title span{
+    color: var(--color-red);
+}
+
+.header__link{
+    color: var(--color-grey);
+    font-family: 'NovaSemibold';
+    font-size: 16px;
+}
+.header__navigation{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.header__navigation_link{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__link_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__navigation_link{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 100px;
+    height: 48px;
+    cursor: text;
+}
+
+.header__searchIcon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    opacity: 0.5;
+}
+
+.header__searchInput {
+    flex: 1;
+    min-width: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--color-white);
+    font-family: 'Nova';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header__searchInput::placeholder {
+    color: var(--color-grey);
+}
