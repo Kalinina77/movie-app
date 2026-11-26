@@ -1,0 +1,11 @@
+.heading {
+  font-family: Nova, sans-serif;
+  font-size: 32px;
+  color: var(--color-white);
+}
+
+.button {
+  background: none;
+  border: 1px solid var(--color-white);
+  margin-top: 35px;
+}

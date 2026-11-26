@@ -1,0 +1,43 @@
+.title {
+  font-family: Nova, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.swiper {
+  margin-top: 20px;
+}
+
+.swiper img {
+  margin-bottom: 10px;
+  max-width: 340px;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.swiper p {
+  color: var(--color-white);
+  font-family: Nova, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px 0 0;
+}
+
+.swiper div {
+  font-family: Nova, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-grey);
+}
+
+.swiper div span {
+  color: var(--color-red);
+}

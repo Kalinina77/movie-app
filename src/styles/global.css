@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  display: block;
+  min-width: 0;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+body {
+  background: rgb(20 16 37 / 100%);
+  font-family: Nova, sans-serif;
+}
+
+h2,
+h1 {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,47 @@
+.wrapper {
+  position: relative;
+  width: 60%;
+  max-width: 100%;
+  overflow: visible;
+  padding: 40px 0;
+}
+
+.swiper {
+  width: 100%;
+  margin-left: 160px;
+  overflow: visible;
+}
+
+.poster {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.swiper :global(.swiper-button-next) {
+  left: -110px;
+  color: var(--color-white);
+  opacity: 0.5;
+}
+
+.swiper :global(.swiper-button-prev) {
+  display: none;
+}
+
+.title {
+  margin: 16px 0 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 2px 8px;
+  border: 1px solid var(--color-red);
+  border-radius: 4px;
+  color: var(--color-red);
+  font-size: 14px;
+}
